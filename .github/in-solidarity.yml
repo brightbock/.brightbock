@@ -1,0 +1,17 @@
+rules:
+  master:
+    level: failure
+  slave:
+    level: failure
+  whitelist:
+    level: failure
+  blacklist:
+    level: failure
+  grandfathered:
+    level: failure
+  sanity_check:
+    level: failure
+  man_hours:
+    level: failure
+ignore:
+ - ".github/in-solidarity.yml"
